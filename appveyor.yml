@@ -1,0 +1,21 @@
+version: '{build}'
+image: Visual Studio 2017
+configuration: Release
+before_build:
+- cmd: dotnet restore
+build:
+  project: AlexaLambdaHandler.sln
+  publish_nuget: true
+  publish_nuget_symbols: true
+  verbosity: normal
+test_script:
+- cmd: >-
+    cd AlexaLambdaHandler.Tests
+
+    dotnet test
+deploy:
+- provider: NuGet
+  api_key:
+    secure: wvDSGVBM2nB/gRylBoYDwQRu7SqXKep4335pEGV9x+qyWwST4TcfVpsTlNpypSr1
+  on:
+    branch: master

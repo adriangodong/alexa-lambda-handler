@@ -1,6 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Title>Alexa Lambda Handler</Title>
+    <Description>A helper class for routing Alexa Skill requests hosted on AWS Lambda.</Description>
+    <PackageId>AlexaLambdaHandler</PackageId>
+    <Authors>adrian</Authors>
+    <PackageTags>alexa;aws;lambda</PackageTags>
+    <IncludeSymbols>True</IncludeSymbols>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/adriangodong/alexa-lambda-handler</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/adriangodong/alexa-lambda-handler/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+  
+  <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
   </PropertyGroup>
 
