@@ -14,13 +14,13 @@
   </PropertyGroup>
   
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Alexa.NET" Version="1.2.0" />
-    <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
+    <PackageReference Include="Alexa.NET" Version="1.7.0" />
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
   </ItemGroup>
 
 </Project>
