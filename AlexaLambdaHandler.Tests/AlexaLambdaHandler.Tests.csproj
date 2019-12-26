@@ -4,8 +4,8 @@
     <IsPackable>False</IsPackable>
   </PropertyGroup>
 
-  <PropertyGroup>    
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
